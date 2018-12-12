@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caesar Cipher Implementation</title>
+	<style>
+		label {
+			margin: 10px;
+			padding: 10px;
+		}
+		input {
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Caesar Cipher</h1>
+	<p>Note: Only Minor Input Handling is done, Key can be any digit between 1 and 25</p>
+	<hr>
+	<label>Plain Text</label>
+	<textarea id="inputWords"></textarea>
+	<label>Key</label>
+	<input type="number" min="0" max="25" id="shiftCharacters" name="" value="0">
+	<button id="encrypt">Encrypt</button>
+	<label>Cipher Text</label>
+	<textarea id="outputWords"></textarea>
+	<hr>
+	<br>
+	<label>Cipher Text</label>
+	<textarea id="ecryptedInputWords"></textarea>
+	<label>Key</label>
+	<input type="number" min="0" max="25" id="ecryptedShiftCharacters" name="" value="0">
+	<button id="decrypt">Decrypt</button>
+	<label>Plain Text</label>
+	<textarea id="decryptedOutputWords"></textarea>
+	<hr>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
