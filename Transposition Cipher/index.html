@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Columnar Transposition Cipher</title>
+	<style>
+		label {
+			margin: 10px;
+			padding: 10px;
+		}
+		input {
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Columnar Transposition Cipher</h1>
+	<p>Note: Only Minor Input Handling is done, Pad Text is for empty spaces. Keyword can be only a word that is rule of Columnar Transposition Cipher</p>
+	<hr>
+	<label>Plain Text</label>
+	<textarea id="plaintText"></textarea>
+	<label>Keyword</label>
+	<input type="text" id="keyword" name="">
+	<label>Pad Text</label>
+	<input type="text" id="padText" name="">
+	<button id="encrypt">Encrypt</button>
+	<label>Cipher Text</label>
+	<textarea id="cipherText"></textarea>
+	<br>
+	<hr>
+	<label>Cipher Text</label>
+	<textarea id="cipherText2"></textarea>
+	<label>Keyword</label>
+	<input type="text" id="keyword2" name="">
+	<button id="decrypt">Decrypt</button>
+	<label>Plain Text</label>
+	<textarea id="plainText2"></textarea>
+	<hr>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
